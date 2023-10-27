@@ -1,0 +1,36 @@
+.card {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.highlight{
+    font-size: 3em;
+    font-weight: 300;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.booking{
+    background-color: rgb(35, 155, 235);
+}
+
+.view-package a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    background-color: rgb(63, 139, 253);
+}
+
+/* .view-package{
+    box-sizing: border-box;
+    
+} */
+
+
+
+
