@@ -41,6 +41,10 @@ button{
 
 }
 
-
+.navbar {
+    @media screen and (max-width: 480px){
+        position: unset !important;
+    }
+}
 
 
