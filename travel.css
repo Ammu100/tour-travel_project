@@ -57,12 +57,12 @@ button{
     }
 }
 
-.package1{
+/* .package1{
 
     @media screen and (max-width: 480px) {
-       margin-top: 10px; 
+       margin-top: 20px; 
     }
-}
+} */
 
 .destination1{
     @media screen and ( max-width: 480px) {
@@ -70,6 +70,37 @@ button{
     }
 }
 
+
+.destination1 {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .destination1:hover .overlay {
+    opacity: 1;
+  }
+
+  /* .desti {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
 
 
 
